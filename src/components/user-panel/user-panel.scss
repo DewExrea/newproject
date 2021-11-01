@@ -1,0 +1,137 @@
+@import "../../themes/generated/variables.base.scss";
+
+.user-info {
+  padding: 5px 0px;
+    display: block;
+    text-align: left;
+    margin: 0 25px 0 50px;
+
+  .dx-toolbar-menu-section & {
+    padding: 10px 6px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .image-container {
+    overflow: hidden;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 0 4px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+
+    .user-image {
+      width: 100%;
+      height: 100%;
+      background: url("https://js.devexpress.com/Demos/WidgetsGallery/JSDemos/images/employees/06.png") no-repeat #fff;
+      background-size: cover;
+    }
+  }
+
+  .user-name {
+    line-height: 1.2em;
+    display: block;
+    font-size: 14px;
+    color: $base-text-color;
+    margin: 0 9px;
+  }
+}
+
+.user-panel .block-img{
+  display: inline-block;
+  float: left;
+}
+
+
+
+.role{
+  color: #ff0000;
+  margin: 0 9px;
+  font-size: 1.1rem;
+  line-height: 1.2em;
+}
+
+.user-panel {
+  height: 100%;
+  .dx-list-item .dx-icon {
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 0.87);
+    margin-right: 16px;
+  }
+  .dx-rtl .dx-list-item .dx-icon {
+    margin-right: 0;
+    margin-left: 16px;
+  }
+}
+
+.dx-context-menu.user-menu.dx-menu-base {
+  &.dx-rtl {
+    .dx-submenu .dx-menu-items-container .dx-icon {
+      margin-left: 16px;
+    }
+  }
+  .dx-submenu .dx-menu-items-container .dx-icon {
+    margin-right: 16px;
+  }
+  .dx-menu-item .dx-menu-item-content {
+      padding: 3px 15px 4px;
+  }
+}
+
+.dx-theme-generic .user-menu .dx-menu-item-content .dx-menu-item-text {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.block-img {
+  overflow: hidden;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 0 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.task-panel{
+  margin: 0;
+}
+// .task-button{
+//   background-color: transparent;
+// }
+
+.dx-button-mode-text.dx-state-hover{
+  background-color: transparent;
+  border: none;
+}
+
+.header-right .dx-button .dx-button-content{
+  padding: 0 0 8px 0;
+}
+
+.dx-button-content .block-img .badge {
+  background: #ff0000;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: normal;
+  height: 16px;
+  padding: 3px 5px 3px 5px;
+  position: absolute;
+  top: 12px
+}
+
+.dx-button-content .block-img i{
+  color: #777;
+  line-height: 30px;
+  vertical-align: middle;
+  font-size: 22px;
+  padding-top: 5px;
+}
+
+.lang-panel .block-img .text-lang{
+  color: #777;
+  line-height: 35px;
+  vertical-align: middle;
+  font-size: 16px;
+  padding-top: 5px;
+}

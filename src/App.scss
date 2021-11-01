@@ -1,0 +1,198 @@
+.app {
+  @import "./themes/generated/variables.base.scss";
+  background-color: darken($base-bg, 5.00);
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.dx-swatch-additional {
+    background-color: #999999 !important;
+}
+
+.side-navigation-menu .menu-container .dx-treeview .dx-treeview-node {
+    border-bottom: none !important;
+}
+
+.side-navigation-menu .menu-container .dx-treeview .dx-treeview-node-container .dx-treeview-node.dx-state-selected > .dx-treeview-item * {
+    color: #fff !important;
+}
+
+.menu-container .dx-state-hover{
+    background-color: #ff0000 !important;
+}
+
+.padd-form {
+    padding-Left: 5%;
+    padding-Right: 5%;
+}
+.header-component .page-header-left .dx-item.menu-button.toggle-ham{
+    width: 70px !important;
+}
+
+.header-component .page-header-left .dx-item.menu-button.toggle-ham .dx-button-content{
+    width: 70px !important;
+}
+
+.header-component .page-header-left .dx-item.menu-button.toggle-ham .dx-toolbar-item-conten{
+    padding-left: 10px !important;
+}
+
+.header-component .page-header-left .dx-item.menu-button.toggle-ham .dx-toolbar-item-conten .dx-button .dx-button-content .icon-white{
+    font-size: 28px !important;
+}
+
+.dx-drawer-left .dx-drawer-wrapper .dx-drawer-panel-content .dx-drawer-panel-content .dx-overlay-content.dx-resizable{
+    min-width: 70px !important;
+}
+
+.dx-drawer-panel-content{
+    min-width: 70px !important;
+}
+
+.dx-drawer-panel-content .dx-scrollable-wrapper .dx-scrollable-container .dx-treeview-node-container .dx-treeview-node .dx-treeview-item .dx-item-content i{
+    padding-left: 23px;
+}
+
+.dx-drawer-panel-content .dx-scrollable-wrapper .dx-scrollable-container .dx-treeview-node-container .dx-treeview-node .dx-treeview-item .dx-item-content span{
+    padding-left: 30px;
+    padding-top: 23px;
+    padding-bottom: 20px;
+}
+
+
+// .dx-drawer-panel-content .dx-scrollable-wrapper .dx-scrollable-container .dx-treeview-node-container .dx-treeview-node .dx-treeview-item .dx-item-content span {
+//     display: none;
+// }
+
+.first-group,
+// .second-group {
+//     padding: 5px;
+// }
+
+.second-group-padding {
+    padding: 10px;
+    background-color:#ffffff;
+    border: 1px solid #cccccc;
+    margin-bottom: 5px;
+}
+
+.dx-field {
+     margin: 0 0 0 0; 
+}
+
+.dx-fileuploader-input-container {
+    // width: 100%;
+    // display: block;
+    border:2px solid rgba(0, 0, 0, 0.24);
+}
+
+.sub-font-HD {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.second-group-onTop {
+    background-color:#ffffff;
+    padding: 5px;
+    // padding-left: 60%
+    // padding-top: 10px
+}
+
+.second-group {
+    // padding: 5px;   
+    // padding-left: 15%;
+    // padding-right: 15%;
+    background-color:#ffffff;
+    // border:2px solid rgba(0, 0, 0, 0.24);
+}
+
+.dx-button-HD {
+    padding-top: 15px;
+}
+
+.dx-text-HD {
+    // margin-top: 25px;
+    padding-left: 140px;
+    color:#999999;
+}
+
+.dx-ojv-HD {
+    margin-top: 15px;
+}
+
+.dx-group-HD {
+    // padding-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.dx-field-label-DT {
+    // margin-left: 50%; 
+    margin-top: 10px;
+    align-items: center;
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+.dx-field-label-Left {
+    // margin-left: 50%; 
+    margin-top: 10px;
+    align-items: center;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.dx-field-value-DT {
+    margin-top: 5px;
+    width: 100%;
+  }
+
+.HD-top {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+  }
+
+//   .dx-item-content.dx-treeview-item-content {
+//     color: #337ab7;
+// }
+
+
+
+  /* // Bank Add */
+
+.dx-datagrid-group-panel{
+    width: 400px !important;
+  } 
+  
+  .dx-datagrid-group-panel .dx-group-panel-message {
+    color: #959595;
+    font-weight: normal;
+    padding: 7px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+  }
+  
+  
+  .dx-datagrid-group-panel .dx-group-panel-item {
+    margin-right: 10px;
+    color: #959595;
+    font-weight: normal;
+    border: 1px solid #ddd;
+    padding: 7px;
+  }
+
+.dx-datagrid-group-panel .dx-sort {
+  color: #898989;
+} 
+
+  
+
+
+
+  

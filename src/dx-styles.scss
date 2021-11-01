@@ -1,0 +1,275 @@
+.app .content {
+  line-height: 1.5;
+
+  h2 {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+}
+
+.app .content-block {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 0px;
+}
+
+.screen-x-small .content-block {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.responsive-paddings {
+  padding: 20px;
+
+  .screen-large & {
+    padding: 40px;
+  }
+}
+
+.dx-card.wide-card {
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+.with-footer > .dx-scrollable-wrapper > .dx-scrollable-container > .dx-scrollable-content {
+  height: 100%;
+
+  & > .dx-scrollview-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
+    // PURE ADD
+    background: white;
+  }
+}
+
+$side-panel-min-width: 40px;
+
+html,
+body {
+  margin: 0px;
+  min-height: 100%;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+// Bank ADD
+
+tr.dx-row.dx-column-lines.dx-header-row {
+  background-color: #cccccc;
+  color: #404041;
+}
+
+// Bank Add
+tr.dx-row.dx-column-lines.dx-header-row {
+  text-align-last: center;
+}
+
+.dx-placeholder {
+  font-size: 13px !important;
+  text-align: left;
+  right: 0px;
+  left: 0px;
+  color: #999999;
+}
+
+.dx-datagrid {
+  color: #999999;
+  background-color: #fff;
+}
+
+tr.dx-row.dx-column-lines.dx-header-row {
+  font-size: 12px;
+}
+.dx-widget {
+  font-size: 13px;
+  color: #404041 ;
+}
+.dx-toolbar-after {
+  width: 45%;
+  right: 0px;
+  display: flex;
+}
+.dx-toolbar-before {
+  width: 55%;
+  display: flex;
+}
+
+.dx-toolbar-center {
+  display: flex;
+}
+
+.dx-toolbar-after .dx-item.dx-toolbar-item.dx-toolbar-button .dx-button-has-icon {
+  border: none;
+  border-radius: 50%;
+  background-color: #45556a;
+  margin-left: 10px;
+}
+
+.dx-toolbar-after .dx-item.dx-toolbar-item.dx-toolbar-button .dx-button-has-icon i {
+  color: #fff;
+  font-weight: bold;
+  padding-top: 2px;
+}
+
+.dx-toolbar-before .dx-item.dx-toolbar-item.dx-toolbar-button {
+  width: 100%;
+}
+.dx-datagrid-search-panel.dx-textbox.dx-texteditor.dx-editor-outlined.dx-searchbox.dx-show-clear-button.dx-widget {
+  width: 100% !important;
+}
+
+.dx-datagrid-search-panel.dx-textbox.dx-texteditor.dx-editor-outlined.dx-searchbox.dx-show-clear-button.dx-widget .dx-texteditor-input{
+  padding: 5px 5px 5px 34px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+// .dx-button-circle {
+//   max-width: 40px;
+//   max-height: 40px;
+//   background-color: #45556a;
+//   border-radius: 50%;
+//   cursor: pointer;
+//   border-top: 0px;
+//   width: 1079.2px;
+//   height: 262.4px;
+//   z-index: 1502;
+//   border: none;
+//   box-shadow: none;
+// }
+
+// .dx-button-circle-position {
+//   position: absolute;
+//   top: 18%;
+//   right: 1.5%;
+//   z-index: 1001;
+// }
+
+.dx-button.dx-button-normal.dx-button-mode-contained.dx-widget.dx-button-has-icon.dx-state-hover {
+  background-color: #647f9a ;
+  border-color: #647f9a;
+}
+
+.dx-fileuploader-button.dx-button.dx-button-normal.dx-button-mode-contained.dx-widget.dx-button-has-text {
+  background-color: #45556a;
+  width: 185px;
+  // Bank Add
+  // position: absolute;
+  // left: 0px;
+}
+
+.dx-fileuploader-button.dx-button.dx-button-normal.dx-button-mode-contained.dx-widget.dx-button-has-text.dx-state-hover {
+  background-color: #647f9a ;
+  border-color: #647f9a;
+}
+
+.dx-datagrid-header-panel .dx-item.dx-toolbar-item.dx-toolbar-label {
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0 -5px;
+  padding: 0 5px;
+  background-color: #7c9bc1;
+  border-radius: 4px;
+  height: 37px;
+}
+
+.dx-datagrid-search-panel.dx-textbox.dx-texteditor.dx-editor-outlined.dx-searchbox.dx-show-clear-button.dx-widget.dx-texteditor-empty {
+  margin-left: 1px;
+}
+.mar-form {
+  margin-top: 15px;
+  margin-left: 2px;
+}
+
+.dx-box-item-form-button-Summit {
+  background-color: #45556a !important;
+  border-left-width: 0px !important;
+  // padding: 0px 0 5px 0;
+}
+.dx-box-item-form-button-Cancel {
+  background-color: #7c9bc1 !important;
+  // padding: 0px 0 5px 0;
+}
+
+.dx-box-item-form-button-Search {
+  background-color: #45556a !important;
+  // padding: 0px 0 5px 0;
+}
+.dx-box-item-form-button-Save  {
+  background-color: #7c9bc1 !important;
+  // padding: 0px 0 5px 0;
+}
+
+.dx-box-item-form-button-other {
+  background-color: #7c9bc1 !important;
+}
+.dx-box-item-form-button-Back {
+  background-color: #ffcc66 !important;
+  // padding: 0px 0 5px 0;
+}
+
+.dx-fileuploader-file-container .dx-button {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  background-color: #404041;
+  border-color: #404041;
+}
+
+
+// Bank Add
+.dx-fileuploader-input-label {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;  
+  cursor: default;
+  color: #999999;
+}
+
+
+.p-zero {
+  padding: 0px ;
+}
+.p-zero-right {
+  padding-right: 0px ;
+}
+.p-zero-left {
+  padding-left: 0px ;
+}
+
+.dx-set-middle {
+  padding: 2px 5px 0px 5px;
+}
+
+.dx-toolbar-after .dx-item-content .dx-closebutton{
+  display:none;
+}
+
+.dx-item-content.dx-toolbar-item-content{
+  max-height: 36px;
+}
+
+.dx-toolbar-before .dx-datagrid-search-panel{
+  height: 37px;
+}

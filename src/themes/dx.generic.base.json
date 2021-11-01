@@ -1,0 +1,9 @@
+{
+    "items": [],
+    "baseTheme": "generic.light",
+    "assetsBasePath": "../../../node_modules/devextreme/dist/css/",
+    "outputColorScheme": "base",
+    "base": true,
+    "makeSwatch": false,
+    "version": "19.1.6"
+}
