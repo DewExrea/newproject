@@ -26,7 +26,7 @@ export const navi = [
       {
         text: "Example Page",
         select: 2,
-        menuItemCode: "002",
+        menuItemCode: "099",
         menuItemTh: "Example Page",
         menuItemEng: "Example Page",
         menuPath: "/examplepage",
